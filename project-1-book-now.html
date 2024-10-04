@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fishing Charter Ireland</title>
+
+  <header>
+    <h1>Our Trips</h1>
+    <h3>Find out more about our charter's and what makes them so special</h3>
+  
+  </header>
+
+  <!--link for the social media buttons in the footer-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <!--link for the css-->
+  <link rel="stylesheet" href="project1.css" >
+
+  
+  <style>
+    body {
+      background-image: url('Assets Project 1/atlantic-background.jpg');
+      max-width:100%;
+      max-height:100%;
+      background-size: cover;
+    }
+    </style>
+
+</head>
+<body>
+  
+  
+  <div class="navbar">
+    <a href="project-1-home.html"><strong>Home</strong></a>
+    <div class="dropdown">
+      <a href="project-1-trips.html"><strong>Trips</strong></a>
+    </div>
+    <a href="project-1-book-now.html"><strong>Book Now</strong></a>
+  </div>
+
+
+  <form action="https://formdump.codeinstitute.net" method="POST">
+
+    <fieldset>
+      <legend>Your details</legend>
+          <div class="flex gap-20">
+              <div id="booknow">
+            <label for="name-field" class="block-label">Name:</label>
+            <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+          </div>
+          <div>
+            <label for="email-field" class="block-label">Email:</label>
+            <input id="email-field" type="email" name="email" placeholder="Your email" required autocomplete="off">
+          </div>
+          
+          
+          </div>
+      
+  
+    </fieldset>
+
+  
+  <fieldset>
+    <legend>Preferences</legend>
+    <div>
+      <label for="dates" class="block-label">What is your preferred dates for your trip?</label>
+      <input id="dates" list="dates" name="dates" required>
+      <datalist id="April">
+        <option value="May">
+        <option value="June">
+        <option value="July">
+        <option value="August">
+        <option value="September">
+      </datalist>
+    </div>
+
+    <p>What duration of trip are you interested in?</p>
+
+    <input id="2-days-radio" name="days" value="2days" type="radio" required>
+    <label for="2-days-radio">2 days</label>
+
+    <input id="3-5days-radio" name="days" value="3-5days" type="radio" required>
+    <label for="3-5days-radio">3 to 5 days</label>
+
+    <input id="6-8days-radio" name="days" value="6-8days" type="radio" required>
+    <label for="6-8days-radio">6 to 8 days</label>
+
+    <input id="9plus-days-radio" name="days" value="9plus-days" type="radio" required>
+    <label for="9plus-days-radio">9 or more days</label>
+
+    <p>How many guests will be in attendance?</p>
+
+    <div>
+      
+  <select id="guests" name="guests" required>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9+">9+</option>
+  </select>
+  </div>
+
+    <p>Please list the types of activities you would like to participate in.</p>
+    <div>
+      <input type="checkbox" id="fishing-checkbox" name="fishing">
+      <label for="fishing-checkbox">Fishing (not including tuna)</label>
+    </div>
+    <div>
+      <input type="checkbox" id="snorkelling-checkbox" name="snorkelling">
+      <label for="snorkelling-checkbox">Snorkelling</label>
+    </div>
+    <div>
+      <input type="checkbox" id="Scuba-checkbox" name="Scuba">
+      <label for="Scuba-checkbox">Scuba diving (license required)</label>
+    </div>
+    <div>
+      <input type="checkbox" id="Inland-checkbox" name="Inland">
+      <label for="Inland-checkbox">Inland experiences</label>
+    </div>
+    <div>
+      <input type="checkbox" id="Tuna-checkbox" name="Tuna">
+      <label for="Tuna-checkbox">Tuna Fishing(catch and release only)</label>
+    </div>	
+  </fieldset>
+
+  <fieldset>
+    <legend>special requirements</legend>
+    <label for="requirements" class="block-label">Please list any special requests or dietary information below. 
+      You can also mention if you require transfers to/from airports or hotels.</label>
+    <br>
+    <textarea id="requirements" rows="4" cols="87" name="requirements"></textarea>
+  </fieldset>
+
+  <input type="submit" class="block-label" value="Submit">
+  <input type="reset" value="Reset Form">
+
+	</form>
+
+
+  <footer>
+    <p><strong>Irish Fishing Charter's</strong></p>
+    <p><strong>Email us:</strong> <a href="mailto:hege@example.com" class="email"><strong>irishfishing@charters.ie</strong></a></p>
+    
+    <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+    <a href="https://x.com/" class="fa fa-twitter" target="_blank"></a>
+    <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a>
+    <a href="https://www.linkedin.com/" class="fa fa-linkedin" target="_blank"></a>
+
+  </footer>
+  
+  
+</body>
+</html>
