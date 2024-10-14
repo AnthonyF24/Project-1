@@ -285,10 +285,11 @@ footer {
 #myVideo {
   position: fixed;
   right: 0;
-  bottom: 0;
+  bottom: -20px;
   max-width: 100%;
   max-height: 100%;
   z-index:0;
+  
 }
 
 
@@ -437,9 +438,9 @@ label {
 .container{
   width: 100%;
   max-width: 600px;
-  margin-top:15px;
+  margin-top:40px;
   text-align: center;
-  display:inline
+  display:inline-block;
 
 
 }
@@ -448,7 +449,7 @@ label {
   flex: 1;
   padding:5px 5px 5px 5px;
   border: 0px solid;
-  margin-top:5px;
+  margin-top:0px;
   box-sizing: border-box;
   font-size: 15px;
   font-weight: bold;
@@ -457,7 +458,8 @@ label {
   color:rgb(0, 0, 0);
   line-height: 160%;
   font-family:sans-serif;
-  margin-bottom:10px;
+  margin-bottom:-8px;
+  border-radius:5px;
   
 }
 
