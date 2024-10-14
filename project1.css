@@ -262,6 +262,13 @@ footer {
 
 
 
+
+
+
+
+
+
+
 /*FOR MOBILE PHONES*/
 
 
@@ -277,15 +284,17 @@ footer {
     background-color:rgba(0,0,0,0.5);
     margin-bottom:1px;
     max-width:100%;
-    
+    font-size:small;
+    line-height: 140%;
+
   }
 
 
       /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
-  position: fixed;
+  position:absolute fixed;
   right: 0;
-  bottom: -20px;
+  bottom: -50px;
   max-width: 100%;
   max-height: 100%;
   z-index:0;
@@ -478,7 +487,7 @@ width:100%;
 
 footer {
   text-align: center;
-  padding: 3px;
+  padding: 0px;
   background-color: rgba(0,0,0,0.5);
   color: white;
   z-index:2;
@@ -486,6 +495,7 @@ footer {
   min-width:100%;
   bottom:0;
   font-family:sans-serif;
+  margin-bottom:5px;
 }
 
 /* Style all font awesome icons */
