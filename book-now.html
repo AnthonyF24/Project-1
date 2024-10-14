@@ -20,7 +20,7 @@
   
   <style>
     body {
-      background-image: url('Assets Project 1/atlantic-background.jpg');
+      background-image: url('Assets/atlantic-background.jpg');
       max-width:100%;
       max-height:100%;
       background-size: cover;
@@ -46,11 +46,11 @@
       <legend>Your details</legend>
           <div class="flex gap-20">
               <div id="booknow">
-            <label for="name-field" class="block-label">Name:</label>
+            <label for="name-field" class="block-label"><strong>Name:</strong></label>
             <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
           </div>
           <div>
-            <label for="email-field" class="block-label">Email:</label>
+            <label for="email-field" class="block-label"><strong>Email:</strong></label>
             <input id="email-field" type="email" name="email" placeholder="Your email" required autocomplete="off">
           </div>
           
@@ -64,11 +64,11 @@
   <fieldset>
     <legend>Preferences</legend>
     <div>
-      <label for="birthday">Please select your preferred start date:</label>
+      <label for="birthday"><strong>Please select your preferred start date:</strong></label>
   <input type="date" id="birthday" name="birthday">
     </div>
 
-    <p>What duration of trip are you interested in?</p>
+    <p><strong>What duration of trip are you interested in?</strong></p>
 
     <input id="2-days-radio" name="days" value="2days" type="radio" required>
     <label for="2-days-radio">2 days</label>
@@ -82,7 +82,7 @@
     <input id="9plus-days-radio" name="days" value="9plus-days" type="radio" required>
     <label for="9plus-days-radio">9 or more days</label>
 
-    <p>How many guests will be in attendance?</p>
+    <p><strong>How many guests will be in attendance?</strong></p>
 
     <div>
       
@@ -96,10 +96,10 @@
   </select>
   </div>
 
-    <p>Please list the types of activities you would like to participate in.</p>
+    <p><strong>Please list the types of activities you would like to participate in.</strong></p>
     <div>
       <input type="checkbox" id="fishing-checkbox" name="fishing">
-      <label for="fishing-checkbox">Fishing (not including tuna)</label>
+      <label for="fishing-checkbox">Fishing <strong>(not including tuna)</strong></label>
     </div>
     <div>
       <input type="checkbox" id="snorkelling-checkbox" name="snorkelling">
@@ -107,7 +107,7 @@
     </div>
     <div>
       <input type="checkbox" id="Scuba-checkbox" name="Scuba">
-      <label for="Scuba-checkbox">Scuba diving (license required)</label>
+      <label for="Scuba-checkbox">Scuba diving <strong>(license required)</strong></label>
     </div>
     <div>
       <input type="checkbox" id="Inland-checkbox" name="Inland">
@@ -115,20 +115,22 @@
     </div>
     <div>
       <input type="checkbox" id="Tuna-checkbox" name="Tuna">
-      <label for="Tuna-checkbox">Tuna Fishing(catch and release only)</label>
+      <label for="Tuna-checkbox">Tuna Fishing <strong>(catch and release only)</strong></label>
     </div>	
   </fieldset>
 
   <fieldset>
     <legend>special requirements</legend>
-    <label for="requirements" class="block-label">Please list any special requests or dietary information below. 
-      You can also mention if you require transfers to/from airports or hotels.</label>
+
+    <label for="requirements" class="block-label"><strong>Please list any special requests or dietary information below. 
+      You can also mention if you require transfers to/from airports or hotels.</strong></label>
     <br>
-    <textarea id="requirements" rows="4" cols="87" name="requirements"></textarea>
+    <textarea class="block-label" id="requirements" rows="7" cols="87" name="requirements"></textarea>
   </fieldset>
 
   <input type="submit" class="block-label" value="Submit">
-  <input type="reset" value="Reset Form">
+  
+  <input class="reset" type="reset" value="Reset Form">
 
 	</form>
 
