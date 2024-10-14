@@ -283,10 +283,11 @@ footer {
     font-family:sans-serif;
     background-color:rgba(0,0,0,0.5);
     margin-bottom:1px;
-    max-width:100%;
+    width:100%;
     font-size:small;
     line-height: 140%;
-
+    margin-top:-8px;
+    margin-left:-5px;
   }
 
 
@@ -492,10 +493,12 @@ footer {
   color: white;
   z-index:2;
   position:fixed relative;
-  min-width:100%;
+  width:100%;
   bottom:0;
   font-family:sans-serif;
   margin-bottom:5px;
+  margin-bottom:-1px;
+  margin-left:-8px;
 }
 
 /* Style all font awesome icons */
@@ -510,6 +513,341 @@ footer {
   margin-left:10px;
   margin-right:10px;
   border-radius:20%;
+  margin-bottom:10px;
+}
+.fa-twitter {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  background: #55ACEE;
+  color: white;
+  margin-left:10px;
+  margin-right:10px;
+  border-radius:20%;
+}
+.fa-instagram {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  background: #e6105f;
+  color: white;
+  margin-left:10px;
+  margin-right:10px;
+  border-radius:20%;
+}
+.fa-linkedin {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  background: #007bb5;
+  color: white;
+  margin-left:10px;
+  margin-right:10px;
+  border-radius:20%;
+  margin-top:10px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.email{
+  color:rgb(139, 131, 255);
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOR TABLETS/IPADS */
+
+
+
+@media (min-width:601px) and (max-width:1400px){
+
+  header{
+    position:relative;
+    z-index:2;
+    text-align:center;
+    color:white;
+    font-family:sans-serif;
+    background-color:rgba(0,0,0,0.5);
+    margin-bottom:1px;
+    width:100%;
+    font-size:small;
+    line-height: 140%;
+    margin-top:-8px;
+    margin-left:-5px;
+  }
+
+
+      /* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position:absolute fixed;
+  right: 0;
+  bottom: -50px;
+  max-width: 100%;
+  max-height: 100%;
+  z-index:0;
+  
+}
+
+
+body {
+  background-image: url('Assets/atlantic-background.jpg');
+  min-height: 1200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+/* Navbar container */
+.navbar {
+overflow: hidden;
+background-color: #1900d4;
+font-family: sans-serif;
+width:fit-content;
+margin-left:auto;
+margin-right:auto;
+border-radius:20px;
+position:relative;
+margin-top:20px;
+padding-left:1px;
+padding-right:0px;
+margin-bottom:20px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+float: left;
+font-size: 17px;
+color: white;
+text-align: center;
+padding: 15px 25px;
+text-decoration: none;
+}
+
+
+
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: rgb(0, 60, 95);
+text-decoration: underline;
+cursor:pointer;
+}
+
+
+
+
+
+/*BOOK NOW PAGE*/
+
+fieldset {
+	border: solid;
+	margin-top: 20px;
+  border-radius:10px;
+  margin-bottom:20px;
+  padding-left:10px;
+
+}
+
+input[type=submit] {
+	margin-top: 20px;
+	margin-left: auto;
+  margin-right:auto;
+	padding: 0.75rem;
+	background-color: #1900d4;
+	color: white;
+	border: none;
+	border-radius: 25px;
+  cursor:pointer;
+  width:200px;
+  position:fixed center;
+  
+}
+
+
+
+input[type=text],
+input[type=email],
+input[list=dates] {
+    height: 30px;
+    width: 30%;
+    padding-left: 10px;
+	  margin: 10px auto;
+
+}
+
+/* overrides css above */
+input[list=dates] {
+    width: 45%;
+}
+
+select {
+    height: 30px;
+    width: 90%%;
+    padding-left: 10px;
+}
+
+form {
+	width: 95%;
+	padding: 10px;
+	border-radius: 8px;
+	margin: 25px auto;
+	background-color: white;
+  line-height: 190%;
+  font-size: large;
+  margin: 4px auto;
+}
+
+.block-label {
+	display:inline-block;
+  max-width: 600px;
+  width:95%;
+  border-width: 2px;
+  position: relative;
+  border-color:grey;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:10px;
+  font-size: large;
+  padding-left:10px;
+
+}
+
+legend {
+	font-size: large;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 20px 0 10px 0;
+  
+}
+
+label {
+  margin: 5px 5px 5px 5px;
+    max-width:95%;
+}
+
+.checkboxes-box div {
+    margin-top: 15px;
+}
+
+.reset{
+  margin-top:30px;
+  position:relative;
+}
+
+#booknow{
+  width:900px;
+}
+
+
+/*FOR THE TRIPS PAGE*/
+
+.container{
+  width: 100%;
+  max-width: 600px;
+  margin-top:40px;
+  text-align: center;
+  display:inline;
+  margin-bottom:20px;
+  
+
+
+}
+
+.side-by-side{
+  flex: 1;
+  padding:1px auto;
+  border: 0px solid;
+  margin-top:50px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  background-color:rgb(213, 213, 222);
+  color:rgb(0, 0, 0);
+  line-height: 160%;
+  font-family:sans-serif;
+  margin-bottom:-8px;
+  border-radius:5px;
+  position:center;
+
+}
+
+
+/* styling for all images in divs*/
+img{
+object-fit:cover;
+height:100%;
+width:100%;
+}
+
+
+
+
+
+footer {
+  text-align: center;
+  padding: 0px;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  z-index:2;
+  position:fixed relative;
+  width:100%;
+  bottom:0;
+  font-family:sans-serif;
+  margin-bottom:5px;
+  margin-bottom:-1px;
+  margin-left:-8px;
+}
+
+/* Style all font awesome icons */
+.fa-facebook {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  background: #3B5998;
+  color: white;
+  margin-left:10px;
+  margin-right:10px;
+  border-radius:20%;
+  margin-bottom:10px;
 }
 .fa-twitter {
   padding: 10px;
