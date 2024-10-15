@@ -1,0 +1,358 @@
+body {
+  max-height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  background-color: rgb(135, 135, 202);
+}
+
+header {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-width: 100%;
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 5px;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 0;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #1900d4;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  position: relative;
+  margin-top: 0px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(0, 60, 95);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+fieldset {
+  border: solid;
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  margin-left: 0.75rem;
+  padding: 0.75rem;
+  background-color: #1900d4;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 150px;
+}
+
+input[type="text"],
+input[type="email"],
+input[list="dates"] {
+  height: 30px;
+  width: 90%;
+  padding-left: 10px;
+  margin: 0 auto;
+}
+
+/* overrides css above */
+input[list="dates"] {
+  width: 45%;
+}
+
+select {
+  height: 30px;
+  width: 100px;
+  padding-left: 10px;
+}
+
+form {
+  width: 700px;
+  padding: 25px;
+  border-radius: 8px;
+  margin: 25px auto;
+  background-color: white;
+  line-height: 150%;
+}
+
+.block-label {
+  display: inline-block;
+}
+
+legend {
+  font-size: large;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 20px 0 10px 0;
+}
+
+label {
+  margin: 10px 15px 5px 0;
+}
+
+.checkboxes-box div {
+  margin-top: 15px;
+}
+
+.container {
+  width: 100%;
+  max-width: 85%;
+  text-align: center;
+  display: inline-flexbox;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.side-by-side {
+  flex: 1;
+  padding: 10px 10px 10px 10px;
+  margin-top: 30px;
+  box-sizing: border-box;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: rgb(213, 213, 222);
+  color: rgb(0, 0, 0);
+  line-height: 150%;
+  border-radius: 10px;
+}
+
+/* styling for all images in divs*/
+img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  z-index: 2;
+  position: fixed;
+  min-width: 100%;
+  bottom: 0;
+}
+
+.bookfooter {
+  position: relative;
+}
+
+/* Style all font awesome icons */
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 25px;
+}
+
+.fa-facebook {
+  background: #3b5998;
+}
+
+.fa-twitter {
+  background: #55acee;
+}
+
+.fa-instagram {
+  background: #e6105f;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.email {
+  color: rgb(0, 154, 244);
+}
+
+.container-i {
+  width: 85%;
+  height: 300px;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/*FOR MOBILE PHONES*/
+
+@media (max-width: 600px) {
+  header {
+    font-size: small;
+    line-height: 190%;
+    margin-top: -8px;
+    margin-left: -5px;
+  }
+
+  /* Style the video: 100% width and height to cover the entire window */
+  #myVideo {
+    max-width: 150%;
+    min-height: 100%;
+  }
+
+  /* Navbar container */
+  .navbar {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding-left: 1px;
+    padding-right: 0px;
+  }
+
+  /* Links inside the navbar */
+  .navbar a {
+    padding: 15px 25px;
+  }
+
+  /*BOOK NOW PAGE*/
+  fieldset {
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  input[type="submit"] {
+    border-radius: 50px;
+  }
+
+  form {
+    max-width: 100%;
+    padding: 3px;
+    border-radius: 20px;
+    line-height: 200%;
+  }
+
+  .block-label {
+    width: 85%;
+  }
+
+  .reset {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  /*FOR THE TRIPS PAGE*/
+
+  .container {
+    margin-top: 40px;
+    display: inline-block;
+  }
+
+  .side-by-side {
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+  }
+  footer {
+    position: fixed;
+    margin-left: -8px;
+  }
+
+  .bookfooter {
+    position: relative;
+  }
+}
+
+/*FOR TABLETS/IPADS */
+
+@media (min-width: 601px) and (max-width: 1400px) {
+  /* Navbar container */
+  .navbar {
+    padding-left: 1px;
+    padding-right: 0px;
+  }
+
+  /* Links inside the navbar */
+  .navbar a {
+    padding: 15px 25px;
+    font-size: large;
+  }
+  /*BOOK NOW PAGE*/
+
+  fieldset {
+    border-radius: 20px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[list="dates"] {
+    width: 30%;
+  }
+
+  form {
+    width: 85%;
+    line-height: 190%;
+    font-size: large;
+  }
+
+  .block-label {
+    width: 600px;
+  }
+
+  input[type="submit"] {
+    width: 130px;
+  }
+
+  /*FOR THE TRIPS PAGE*/
+  .container-i {
+    display: inline;
+  }
+
+  footer {
+    position: fixed;
+  }
+
+  .bookfooter {
+    position: relative;
+  }
+}
