@@ -4,7 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
-  background-color: rgb(135, 135, 202);
+  background-color: rgb(127, 127, 255);
 }
 
 header {
@@ -14,7 +14,6 @@ header {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   min-width: 100%;
-  padding: 5px 5px 5px 5px;
   margin-bottom: 5px;
 }
 
@@ -26,6 +25,36 @@ header {
   min-width: 100%;
   min-height: 100%;
   z-index: 0;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  background: rgba(0, 170, 255, 0.8);
+  color: #f1f1f1;
+  width: 300px;
+  padding: 20px;
+  border-radius: 40px;
+  text-align: center;
+  right: 100px;
+  bottom: 150px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 150px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
 }
 
 /* Navbar container */
@@ -160,9 +189,60 @@ img {
   border-radius: 10px;
 }
 
+* {
+  box-sizing: border-box;
+}
+.mySlides1,
+.mySlides2 {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 85%;
+  position: relative;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: black;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover,
+.next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
 footer {
   text-align: center;
-  padding: 3px;
+  padding: 5px;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   z-index: 2;
@@ -238,6 +318,15 @@ footer {
     min-height: 100%;
   }
 
+  .content {
+  background: rgba(0, 170, 255, 0.8);
+  color: #f1f1f1;
+  width: 200px;
+  padding: 20px;
+  right: 10px;
+  bottom: 145px;
+  }
+
   /* Navbar container */
   .navbar {
     width: fit-content;
@@ -282,9 +371,12 @@ footer {
 
   /*FOR THE TRIPS PAGE*/
 
-  .container {
+  .container{
     margin-top: 40px;
-    display: inline-block;
+  }
+
+  .section{
+    display:inline-block;
   }
 
   .side-by-side {
