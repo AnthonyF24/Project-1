@@ -52,10 +52,10 @@ The booking page has a form for users to submit their details and preferences fo
 The **Home Page** welcomes users with a full-screen video background that highlights a fishing trip along Ireland's coastline. The main header, "Irish Luxury Fishing Charters," stands out, along with a description inviting users to explore and fish in Ireland's waters. Navigation buttons allow visitors to switch between the Home, Trips, and Book Now pages. A video control button is also provided at the bottom right corner to pause or play the background video.
 
 ### Trips Page
-![Trips Page Screenshot](media/trips-page.png)
+![Trips Page Screenshot](media/Trips-page.png)
 The **Trips Page** showcases the Viking Yachts 82 and describes the luxurious fishing charters offered. It also highlights the itinerary, showing stops at various iconic locations such as Kinsale, Dingle, and Galway. The images include high-quality visuals of the yacht's interior and scenic views of the journey, enhancing the luxurious and adventurous feel of the trips.
 
-![Trips Page Additional Screenshot](media/trips-page-3.png)
+![Trips Page Additional Screenshot](media/Trips-page-3.png)
 Another section of the Trips Page shows underwater activities like scuba diving, paired with a map highlighting the departure point from Kinsale Harbour. The page emphasizes the various activities and destinations that visitors will experience on their fishing adventure.
 
 ### Book Now Page
