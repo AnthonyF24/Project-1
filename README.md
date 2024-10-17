@@ -34,39 +34,39 @@ This project is designed for:
 Below are the wireframes for the key pages of the website:
 
 ### Home Page
-![Home Page Wireframe](Wireframe%20Home%20page.png)
+![Home Page Wireframe](wireframe%20home%20page.png)
 The home page includes a video background showcasing Ireland’s coastline, a navigation menu, and a section to control the video.
 
 ### Trips Page
-![Trips Page Wireframe](Wireframe%20Trips%20page.png)
+![Trips Page Wireframe](wireframe%20trips%20page.png)
 The trips page features detailed images and information about the fishing trips, including descriptions of the yacht and routes.
 
 ### Book Now Page
-![Book Now Wireframe](Wireframe%20Book%20Now.png)
+![Book Now Wireframe](wireframe%20book%20now.png)
 The booking page has a form for users to submit their details and preferences for the fishing charter.
 
 ## Screenshots
 
 ### Home Page
-![Home Page Screenshot](Home%20page.png)
+![Home Page Screenshot](home%20page.png)
 The **Home Page** welcomes users with a full-screen video background that highlights a fishing trip along Ireland's coastline. The main header, "Irish Luxury Fishing Charters," stands out, along with a description inviting users to explore and fish in Ireland's waters. Navigation buttons allow visitors to switch between the Home, Trips, and Book Now pages. A video control button is also provided at the bottom right corner to pause or play the background video.
 
 ### Trips Page
-![Trips Page Screenshot](Trips%20page.png)
+![Trips Page Screenshot](trips%20page.png)
 The **Trips Page** showcases the Viking Yachts 82 and describes the luxurious fishing charters offered. It also highlights the itinerary, showing stops at various iconic locations such as Kinsale, Dingle, and Galway. The images include high-quality visuals of the yacht's interior and scenic views of the journey, enhancing the luxurious and adventurous feel of the trips.
 
-![Trips Page Additional Screenshot](Trips%20page%203.png)
+![Trips Page Additional Screenshot](trips%20page%203.png)
 Another section of the Trips Page shows underwater activities like scuba diving, paired with a map highlighting the departure point from Kinsale Harbour. The page emphasizes the various activities and destinations that visitors will experience on their fishing adventure.
 
 ### Book Now Page
-![Book Now Page Screenshot](Book%20Now%20page.png)
+![Book Now Page Screenshot](book%20now%20page.png)
 The **Book Now Page** contains a detailed form where users can submit their trip preferences, including their name, email, preferred start date, trip duration, number of guests, and activity selections such as fishing, snorkeling, or scuba diving. There is also a section for special requirements, allowing guests to request dietary accommodations or transportation assistance. This page makes it easy for users to tailor their fishing trip to their specific needs.
 
 ## Responsive Design
 
 The website is fully responsive and adapts beautifully to different screen sizes, ensuring a seamless experience across desktops, tablets, and mobile devices.
 
-![Responsive Design Screenshot](Screenshot%202024-10-17%20132712.png)
+![Responsive Design Screenshot](reactive%20screens.png)
 
 This image demonstrates how the website looks on various devices, such as desktops, laptops, tablets, and smartphones. Regardless of the device, users can enjoy smooth navigation and access all features, including video playback, booking forms, and trip information.
 
