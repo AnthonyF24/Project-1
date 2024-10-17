@@ -373,7 +373,8 @@ footer {
   /*FOR THE TRIPS PAGE*/
 
   .container{
-    margin-top: 40px;
+    margin-top: 10px;
+    border-radius:10px;
   }
 
   .section{
@@ -383,8 +384,8 @@ footer {
   .side-by-side {
     font-size: 15px;
     border-radius: 5px;
-    margin-bottom: -10px;
-    margin-top: -10px;
+    margin-bottom:10px;
+    margin-top:10px;
   }
   footer {
     position: fixed;
@@ -436,9 +437,9 @@ footer {
     width: 130px;
   }
 
-  /*FOR THE TRIPS PAGE*/
-  .container-i {
-    display: inline;
+  .container{
+    border-radius:10px;
+    margin-top:30px;
   }
 
   footer {
@@ -447,5 +448,78 @@ footer {
 
   .bookfooter {
     position: relative;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* For smaller mobile phones: */
+@media  only screen and (max-width: 350px) {
+  
+  header {
+    font-size: x-small;
+    line-height: 170%;
+    margin-top: -8px;
+    margin-left: -5px;
+  }
+
+  /* Style the video: 100% width and height to cover the entire window */
+  #myVideo {
+    max-width: 110%;
+    min-height: 100%;
+  }
+
+  .content {
+  border-radius:10px;
+  width: 130px;
+  padding: 1px 1px 1px 1px;
+  right: 7px;
+  bottom: 140px;
+  font-size:xx-small;
+  }
+
+  #myBtn {
+    width: 100px;
+    font-size: 8px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  /* Navbar container */
+  .navbar {
+    border-radius: 50px;
+    margin-top: 2px;
+  }
+
+  /* Links inside the navbar */
+  .navbar a {
+    padding: 10px 20px;
+  }
+
+  .container {
+    max-width:95%;
+    border-radius:10px;
+  }
+  .slideshow-container{
+    max-width:95%;
+  }
+  footer {
+    font-size:small;
+  }
+
+  .bookfooter {
+    font-size:small;
   }
 }
