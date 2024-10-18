@@ -97,7 +97,7 @@ header {
 fieldset {
   border: solid;
   margin-top: 20px;
-  border-radius:20px;
+  border-radius: 20px;
 }
 
 input[type="submit"] {
@@ -164,7 +164,7 @@ label {
   width: 100%;
   max-width: 75%;
   text-align: center;
-  display: inline-flexbox;
+  display: inline;
   margin-left: auto;
   margin-right: auto;
 }
@@ -320,12 +320,12 @@ footer {
   }
 
   .content {
-  background: rgba(0, 170, 255, 0.8);
-  color: #f1f1f1;
-  width: 200px;
-  padding: 20px;
-  right: 10px;
-  bottom: 145px;
+    background: rgba(0, 170, 255, 0.8);
+    color: #f1f1f1;
+    width: 200px;
+    padding: 20px;
+    right: 10px;
+    bottom: 145px;
   }
 
   /* Navbar container */
@@ -372,20 +372,20 @@ footer {
 
   /*FOR THE TRIPS PAGE*/
 
-  .container{
+  .container {
     margin-top: 10px;
-    border-radius:10px;
+    border-radius: 10px;
   }
 
-  .section{
-    display:inline-block;
+  .section {
+    display: inline-block;
   }
 
   .side-by-side {
     font-size: 15px;
     border-radius: 5px;
-    margin-bottom:10px;
-    margin-top:10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
   footer {
     position: fixed;
@@ -437,9 +437,9 @@ footer {
     width: 130px;
   }
 
-  .container{
-    border-radius:10px;
-    margin-top:30px;
+  .container {
+    border-radius: 10px;
+    margin-top: 30px;
   }
 
   footer {
@@ -451,16 +451,12 @@ footer {
   }
 }
 
-
-
-
 /* For smaller mobile phones: */
 @media (max-width: 330px) {
-  
   header {
     font-size: 11px;
     line-height: 150%;
-    margin-left:0px
+    margin-left: 0px;
   }
 
   /* Style the video: 100% width and height to cover the entire window */
@@ -469,12 +465,12 @@ footer {
   }
 
   .content {
-  border-radius:10px;
-  width: 240px;
-  padding:0px;
-  right:37px;
-  bottom: 100px;
-  font-size:x-small;
+    border-radius: 10px;
+    width: 240px;
+    padding: 0px;
+    right: 37px;
+    bottom: 100px;
+    font-size: x-small;
   }
 
   #myBtn {
@@ -486,7 +482,7 @@ footer {
     color: #fff;
     cursor: pointer;
     border-radius: 15px;
-    margin-top:-9px;
+    margin-top: -9px;
   }
 
   /* Navbar container */
@@ -501,22 +497,22 @@ footer {
   }
 
   .container {
-    max-width:95%;
-    border-radius:10px;
+    max-width: 95%;
+    border-radius: 10px;
   }
-  .slideshow-container{
-    max-width:95%;
+  .slideshow-container {
+    max-width: 95%;
   }
   footer {
-    font-size:x-small;
+    font-size: x-small;
   }
 
   .bookfooter {
-    font-size:small;
+    font-size: small;
   }
 
   .fa {
-    width:35px;
-    font-size:small;
+    width: 35px;
+    font-size: small;
   }
 }

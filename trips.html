@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fishing Charter Ireland</title>
-  <header>
-    <h1>Our Trips</h1>
-    <h3>Find out more about our charter's and what makes them so special</h3>
-
-  </header>
+  
 
   <!--link for the social media buttons in the footer-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!--link for the css-->
   <link rel="stylesheet" href="assets/styles/styles.css">
-
-  <style>
-    body {
-      background-image: url('assets/media/atlantic-background.jpg');
-      max-width: 100%;
-      max-height: 100%;
-      background-size: cover;
-    }
-  </style>
+    <style>
+    .background{
+       background-image: url('assets/media/atlantic-background.jpg');
+       max-width: 100%;
+       max-height: 100%;
+       background-size: cover;
+     }
+   </style>
 </head>
 
-<body>
+<body class="background">
+  <header>
+    <h1>Our Trips</h1>
+    <h3>Find out more about our charter's and what makes them so special</h3>
+  </header>
+
+
   <div class="navbar">
   <a href="index.html"><strong>Home</strong></a>
   <div class="dropdown">
@@ -54,6 +54,7 @@
   Highlights include the Wild Atlantic Way, Cliffs of Moher, and Skellig Michael. 
   Longer trips may conclude at Malin Head, with a final night at a 5-star hotel. 
   Tailored itineraries combine thrilling fishing with leisurely exploration for the ultimate coastal experience.</p>
+  </div> 
   </div>
 
   </section>
@@ -64,6 +65,7 @@
     <div class="container">
       <div class="side-by-side">
         <img src="assets/media/Viking-interior.jpg" alt="Viking Yachts 82 interior">
+      </div>
       </div>
   </section>
 
@@ -82,7 +84,7 @@
           Modern amenities, climate control, and elegant interiors ensure a premium experience throughout.
         </p>
       </div>
-
+      </div>
   </section>
 
   <section>
@@ -90,6 +92,7 @@
 
       <div class="side-by-side">
         <img src="assets/media/irish-steak.jpg" alt="surf and turf food, steak and some prawns">
+      </div>
       </div>
   </section>
   
@@ -137,7 +140,6 @@
   <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
   <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
 </div>
-</div>
 </section>
 
 <script>
@@ -163,8 +165,9 @@ function showSlides(n, no) {
 </script>
 
   <section>
-    <div>
-      <p align="center"><iframe class="container"
+
+    <div class="container">
+      <p><iframe class="container"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29744.707668666124!2d-8.542438745498659!3d51.670276253639834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48446178bbfbbfeb%3A0x1bf3aaeccfa55557!2sKinsale%20Harbour!5e1!3m2!1sen!2sie!4v1729001023903!5m2!1sen!2sie"
         style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
       </iframe></p>
@@ -184,12 +187,6 @@ function showSlides(n, no) {
 
   </footer>
 
-
-
-
-
-
-  </div>
 </body>
 
 </html>
