@@ -160,12 +160,13 @@ label {
 }
 
 .container {
-  max-width: 90%;
+  max-width: 80%;
   text-align: center;
   display: inline;
   margin-left: auto;
   margin-right: auto;
 }
+
 
 .side-by-side {
   flex: 1;
@@ -302,12 +303,12 @@ footer {
 }
 
 .container-i {
-  width: 100%;
-  height: 300px;
+  width: 80%;
+  height: 350px;
   border-radius: 15px;
   margin-top: 30px;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left:10%;
+  margin-right:10%;
 }
 
 
