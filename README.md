@@ -10,6 +10,7 @@ Fishing Charter Ireland is a luxury fishing charter service offering tours along
 - [Wireframes](#wireframes)
 - [Screenshots](#screenshots)
 - [Responsive Design](#responsive-design)
+- [Testing](#testing)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
@@ -69,6 +70,45 @@ The website is fully responsive and adapts beautifully to different screen sizes
 ![Responsive Design Screenshot](media/reactive-screens.png)
 
 This image demonstrates how the website looks on various devices, such as desktops, laptops, tablets, and smartphones. Regardless of the device, users can enjoy smooth navigation and access all features, including video playback, booking forms, and trip information.
+
+## Testing
+
+The website has undergone several manual tests to ensure that it works as intended on various devices and browsers. Below are the key areas of testing:
+
+### 1. **Responsiveness**
+- **Tested on**: Desktop, Laptop, Tablet, and Mobile devices.
+- **Outcome**: The website is fully responsive and displays correctly on all screen sizes. The navigation, video playback, and form functionality work seamlessly across devices.
+- **Tools Used**: Chrome Developer Tools (Device Emulation), actual device testing on Android, iOS, Windows, and macOS.
+
+### 2. **Cross-Browser Compatibility**
+- **Tested Browsers**:
+  - Google Chrome
+  - Mozilla Firefox
+  - Microsoft Edge
+  - Safari
+- **Outcome**: The website works consistently across all browsers. Video autoplay, form validation, and navigation links function correctly in each tested browser.
+
+### 3. **Form Validation**
+- **Tested Areas**: 
+  - Required fields (Name, Email, Start Date)
+  - Email format validation
+  - Dropdown selections (Number of guests)
+  - Activity checkbox selections
+- **Outcome**: The form validation works as expected. Users are prompted with errors if required fields are left blank or if the email format is incorrect.
+
+### 4. **Navigation Links**
+- **Tested Links**: Home, Trips, Book Now
+- **Outcome**: All navigation links work as expected and direct users to the correct pages. The navigation bar remains functional across different screen sizes.
+
+### 5. **Video Playback**
+- **Tested Functionality**: 
+  - Autoplay of background video on the home page
+  - Pause/Play button functionality
+- **Outcome**: The video autoplays upon page load, and the Pause/Play button works as intended. The video controls remain functional across devices and browsers.
+
+### 6. **Performance Testing**
+- **Tools Used**: Lighthouse (Chrome Developer Tools)
+- **Outcome**: The website scores well on performance and accessibility tests, with a fast loading time for the video background and images. Optimization for mobile devices is achieved by ensuring assets are compressed and delivered efficiently.
 
 ## Installation
 This project is static, and you can run it locally by following these steps:
