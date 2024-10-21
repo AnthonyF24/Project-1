@@ -1,0 +1,9 @@
+{
+  "liveServer.settings.https": {
+    "enable": true
+  },
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.NoBrowser": true,
+  "liveServer.settings.useLocalIp": true,
+  "liveServer.settings.useWebExt": false
+}
