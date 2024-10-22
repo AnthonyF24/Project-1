@@ -15,6 +15,7 @@ Fishing Charter Ireland is a luxury fishing charter service offering tours along
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Dependencies](#dependencies)
+- [Credits](#credits)
 - [License](#license)
 
 ## Target Audience
@@ -107,8 +108,31 @@ The website has undergone several manual tests to ensure that it works as intend
 - **Outcome**: The video autoplays upon page load, and the Pause/Play button works as intended. The video controls remain functional across devices and browsers.
 
 ### 6. **Performance Testing**
-- **Tools Used**: Lighthouse (Chrome Developer Tools)
-- **Outcome**: The website scores well on performance and accessibility tests, with a fast loading time for the video background and images. Optimization for mobile devices is achieved by ensuring assets are compressed and delivered efficiently.
+The website’s performance was tested using **Lighthouse** to evaluate its **Performance**, **Accessibility**, **Best Practices**, and **SEO**. Below are the test results for different pages:
+
+#### **Home Page**
+- **Performance**: 81
+- **Accessibility**: 100
+- **SEO**: 100
+
+![Home Page Performance](Documentation/index-performance.png)
+
+#### **Book Now Page**
+- **Performance**: 100
+- **Accessibility**: 100
+- **Best Practices**: 100
+- **SEO**: 100
+
+![Book Now Page Performance](Documentation/booknow-performance.png)
+
+#### **Trips Page**
+- **Performance**: 99
+- **Accessibility**: 100
+- **SEO**: 91
+
+![Trips Page Performance](Documentation/trips-performance.png)
+
+These tests indicate that the website is highly optimized across all metrics, with excellent scores for **Accessibility**, **SEO**, and **Best Practices**.
 
 ## Installation
 This project is static, and you can run it locally by following these steps:
@@ -122,11 +146,19 @@ This project is static, and you can run it locally by following these steps:
 - **Book Now**: A form for users to submit their booking details, including name, email, preferred start date, and trip duration.
 
 ## Project Structure
-The project has the following structure:Project-1-home/ ├── Project-1-home.html/ │ ├── assets/ │ │ ├── media/ # Images and videos used on the site │ │ └── styles/ # CSS stylesheet │ ├── book-now.html # Booking page │ ├── home.html # Main homepage │ └── trips.html # Trips information page
+The project has the following structure: Project-1-home/ ├── Project-1-home.html/ │ ├── assets/ │ │ ├── media/ # Images and videos used on the site │ │ └── styles/ # CSS stylesheet │ ├── book-now.html # Booking page │ ├── home.html # Main homepage │ └── trips.html # Trips information page
+
 ## Dependencies
 - **Font Awesome**: Used for social media icons in the footer.
 - **CSS**: Custom styles are included in `assets/styles/styles.css`.
 - **JavaScript**: Embedded within the HTML to control video playback.
+
+## Credits
+This project was made possible with the help of various resources for learning HTML and CSS:
+- **[W3Schools](https://www.w3schools.com/)**: Comprehensive tutorials on HTML and CSS.
+- **[MDN Web Docs](https://developer.mozilla.org/)**: Excellent documentation for web development standards and best practices.
+- **[CSS-Tricks](https://css-tricks.com/)**: Guides and tips for mastering CSS design and layouts.
+- **[HTML Dog](https://htmldog.com/)**: A great resource for tutorials on HTML and CSS fundamentals.
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
