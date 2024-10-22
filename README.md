@@ -154,11 +154,12 @@ The project has the following structure: Project-1-home/ ├── Project-1-hom
 - **JavaScript**: Embedded within the HTML to control video playback.
 
 ## Credits
-This project was made possible with the help of various resources for learning HTML and CSS:
+This project was made possible with the help of various resources for learning HTML and CSS, as well as assistance from ChatGPT:
 - **[W3Schools](https://www.w3schools.com/)**: Comprehensive tutorials on HTML and CSS.
 - **[MDN Web Docs](https://developer.mozilla.org/)**: Excellent documentation for web development standards and best practices.
 - **[CSS-Tricks](https://css-tricks.com/)**: Guides and tips for mastering CSS design and layouts.
 - **[HTML Dog](https://htmldog.com/)**: A great resource for tutorials on HTML and CSS fundamentals.
+- **ChatGPT**: Provided guidance on structure and assistance with gathering data for content.
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
