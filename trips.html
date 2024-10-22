@@ -98,39 +98,52 @@
       Fishing in Ireland’s rich waters offers a variety of fish like cod, pollock, mackerel, and sea bass, with the option for catch-and-release bluefin tuna fishing, combining adventure with conservation.</p>
   </div>
 </div>
-
+</section>
+<section>
+<!-- Slideshow container -->
 <div class="slideshow-container">
 
-  <div class="mySlides1">
-    <img src="assets/media/scuba-diving.webp" style="width:100%" loading="lazy" alt="A picture of a man scuba diving under water.">
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="assets/media/crew.webp" style="width:100%" alt="a picture of 2 crew members onboard">
   </div>
 
-  <div class="mySlides1">
-    <img src="assets/media/pollack-caught.webp" style="width:100%" loading="lazy" alt="A picture of a man holding a pollack he just caught.">
+  <div class="mySlides fade">
+    <img src="assets/media/viking-82-interior2.webp" style="width:100%" alt="a picture of the interior of our boat">
   </div>
 
-  <div class="mySlides1">
-    <img src="assets/media/cod-caught.webp" style="width:100%" loading="lazy" alt="A picture of a man holding a cod fish he just caught.">
+  <div class="mySlides fade">
+    <img src="assets/media/scuba-diving.webp" style="width:100%" alt="a picture of a customer scuba diving">
   </div>
 
-  <div class="mySlides1">
-    <img src="assets/media/viking-82-interior2.webp" style="width:100%" loading="lazy" alt="A picture of the inside of the boat.">
+  <div class="mySlides fade">
+
+    <img src="assets/media/pollack-caught.webp" style="width:100%" alt="a picture of a customer who caught a large pollack">
   </div>
 
-  <div class="mySlides1">
-    <img src="assets/media/crew.webp" style="width:100%" loading="lazy" alt="A picture of two crewmates onboard our boat.">
+  <div class="mySlides fade">
+    <img src="assets/media/2-beds.webp" style="width:100%" alt="a picture of guest accommodation onboard">
   </div>
 
-  <div class="mySlides1">
-    <img src="assets/media/2-beds.webp" style="width:100%" loading="lazy" alt="A picture of two single beds onboard our boat.">
+  <div class="mySlides fade">
+    <img src="assets/media/cod-caught.webp" style="width:100%" alt="a picture of a cod that was caught by a customer">
   </div>
 
-  <div class="mySlides1">
-    <img src="assets/media/fs-fishing.webp" style="width:100%" loading="lazy" alt="A picture of a father and son fishing onboard.">
+  <div class="mySlides fade">
+    <img src="assets/media/fs-fishing.webp" style="width:100%" alt="a picture of a father and son fishing onboard">
   </div>
 
-  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 </section>
 
@@ -140,28 +153,33 @@
 </iframe>
 
 <script>
-let slideIndex = [1, 1];
-let slideId = ["mySlides1", "mySlides2"];
-showSlides(1, 0);
-showSlides(1, 1);
+let slideIndex = 1;
+showSlides(slideIndex);
 
-function plusSlides(n, no) {
-	showSlides(slideIndex[no] += n, no);
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
 
-function showSlides(n, no) {
-	let i;
-	let x = document.getElementsByClassName(slideId[1]);
-	if (n > x.length) {
-		slideIndex[no] = 1;
-	}
-	if (n < 1) {
-		slideIndex[no] = x.length;
-	}
-	for (i = 0; i < x.length; i++) {
-		x[i].style.display = "none";
-	}
-	x[slideIndex[no] - 1].style.display = "block";
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
 }
 </script>
 
