@@ -37,7 +37,6 @@ header {
   text-align: center;
   right: 70px;
   bottom: 150px;
-  font-display:swap;
 }
 
 /* Style the button used to pause/play the video */
@@ -69,7 +68,6 @@ header {
   margin-top: 0px;
   padding-left: 150px;
   padding-right: 150px;
-  font-display:swap;
 }
 
 /* Links inside the navbar */
@@ -140,7 +138,6 @@ form {
   margin: 25px auto;
   background-color: white;
   line-height: 150%;
-  font-display:swap;
 }
 
 .block-label {
@@ -185,7 +182,6 @@ label {
   max-width:85%;
   margin-left: auto;
   margin-right: auto;
-  font-display:swap;
 
 }
 
