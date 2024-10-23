@@ -57,7 +57,7 @@ The **Home Page** welcomes users with a full-screen video background that highli
 ![Trips Page Screenshot](Documentation/trips-page.png)
 The **Trips Page** showcases the Viking Yachts 82 and describes the luxurious fishing charters offered. It also highlights the itinerary, showing stops at various iconic locations such as Kinsale, Dingle, and Galway. The images include high-quality visuals of the yacht's interior and scenic views of the journey, enhancing the luxurious and adventurous feel of the trips.
 
-![Trips Page Additional Screenshot](Documentation/trips-page-3.png)
+![Trips Page Additional Screenshot](Documentation/trips-page4.png)
 Another section of the Trips Page shows underwater activities like scuba diving, paired with a map highlighting the departure point from Kinsale Harbour. The page emphasizes the various activities and destinations that visitors will experience on their fishing adventure.
 
 ### Book Now Page
